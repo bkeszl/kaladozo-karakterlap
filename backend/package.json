@@ -1,0 +1,33 @@
+{
+  "name": "kalandozo-backend",
+  "version": "1.0.0",
+  "description": "Backend logic for a character sheet manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkeszl/kaladozo-karakterlap.git"
+  },
+  "keywords": [
+    "role",
+    "play",
+    "rpg",
+    "backend",
+    "express"
+  ],
+  "author": "bkeszl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bkeszl/kaladozo-karakterlap/issues"
+  },
+  "homepage": "https://github.com/bkeszl/kaladozo-karakterlap#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.3.5",
+    "yarn": "^1.22.5"
+  }
+}
